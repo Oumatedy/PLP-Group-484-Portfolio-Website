@@ -59,7 +59,7 @@ ul li {
 }
 
 #navbar-hero {
-    background-image: url("assets/img/bg-1.jpeg");
+    background-image: url("./assets/img/banner1.jpg");
     background-position: 20% 30%;
     background-repeat: no-repeat;
     background-size: cover;
