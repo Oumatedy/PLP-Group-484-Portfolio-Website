@@ -129,8 +129,37 @@ ul li {
     
 }
 
+#navbar-hero #hero .row .Me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#navbar-hero #hero .row .Me .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#navbar-hero #hero .row img {
+    max-width: 100%;
+    height: 80vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* bio styles*/
+.about {
+    height: 60vh;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 .details {
     display: flex;
     justify-content: space-between;
