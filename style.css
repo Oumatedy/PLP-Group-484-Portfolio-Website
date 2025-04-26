@@ -281,6 +281,82 @@ ul li {
 
 
 
+/* SKILLS SECTION */
+ #skills-section {
+    padding: 50px;
+    background-color: #fff;
+    height: auto;
+  }
+  
+  #skills-section .skills-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #skills-section .skills-image {
+    width: 50%;
+    height: 500px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #skills-section .skills-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  
+  #skills-section .skills-content {
+    width: 50%;
+  }
+  
+  #skills-section .skills-content h5 {
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #skills-section .skills-content h2 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  #skills-section .skills-content p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  #skills-section .skill {
+    margin-bottom: 20px;
+  }
+  
+  #skills-section .skill p {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #skills-section .progress-bar {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5px;
+  }
+  
+  #skills-section .progress {
+    height: 5px;
+    background-color: #008060;
+  }
+  
+
 
 
 /*Media Queries*/
@@ -305,6 +381,33 @@ ul li {
     .details {
         flex-direction: column;
         align-items: start;
+    }
+
+    /* skills-section */
+    #skills-section {
+        padding: 30px;
+        height: auto;
+    }
+
+    #skills-section .skills-container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    #skills-section .skills-image {
+        width: 100%;
+        height: auto;
+    }
+
+    #skills-section .skills-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #skills-section .skills-content {
+        width: 100%;
     }
 }
 @media (max-width: 480px) {
