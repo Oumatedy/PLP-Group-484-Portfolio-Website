@@ -2,7 +2,7 @@
 
 This is a responsive portfolio website designed for showcasing skills, projects, and services. The website includes multiple sections such as a hero section, biography, skills, portfolio, and more. It also features a dark mode toggle, animations, and interactive elements.
 
-This website was developed as an assignment for the PLP-Web-Dev module.
+This website was developed as an assignment for the PLP-Web-Dev module by group 484.
 
 ## Features
 
