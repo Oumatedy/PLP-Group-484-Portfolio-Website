@@ -795,7 +795,6 @@ footer p {
     .label {
         font-size: 14px;
     }
-
     /*portfolio*/
     .images-grid {
         grid-template-columns: repeat(1, 1fr);
